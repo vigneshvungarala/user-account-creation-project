@@ -105,4 +105,62 @@ App will run at:
 | PUT    | /users/{email} | Update user   |
 | DELETE | /users/{email} | Delete user   |
 
+## 🧰 Technology Stack
+
+### Backend
+- Python  
+- Flask  
+- AWS Lambda  
+- API Gateway  
+- Serverless Framework  
+- Redis (ElastiCache Serverless)
+
+### Frontend
+- React.js  
+- React-Bootstrap  
+- Axios  
+- Netlify Hosting
+
+---
+
+## 📈 Achievements
+
+✔ Fully serverless architecture  
+✔ Live production deployment  
+✔ Secure Redis integration  
+✔ Responsive dashboard UI  
+✔ Scalable and modular codebase  
+✔ Real-world recruitment-level implementation  
+
+---
+
+## 👤 Author
+
+**Vignesh**  
+Aspiring Backend Developer  
+Final Year B.Tech Student  
+
+Built as part of a recruitment task to demonstrate:
+
+- Backend API development  
+- Serverless cloud deployment  
+- Database integration  
+- Frontend dashboard development  
+
+---
+
+## 📬 Contact
+
+For feedback, improvements, or collaboration:
+
+- GitHub Profile  
+- LinkedIn (optional)
+
+---
+
+## ✅ Status
+
+🟢 **Project Complete**  
+🟢 **Live**  
+🟢 **Production Ready**  
 
