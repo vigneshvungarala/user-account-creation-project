@@ -14,7 +14,7 @@ This system allows complete CRUD operations for user accounts through a secure b
   [https://user-creation-app.netlify.app/](https://user-creation-app.netlify.app/)
 
 * ⚙️ **Backend API Base URL:**
-  [https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev/health](https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev)
+  [https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev](https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev)
 
 ---
 
