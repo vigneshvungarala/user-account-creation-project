@@ -87,7 +87,7 @@ python app.py
 API will run at:
 👉 http://localhost:5000
 
-# Frontend (React Local)
+## Frontend (React Local)
 cd user-account-dashboard
 npm install
 npm start
@@ -95,4 +95,12 @@ npm start
 
 App will run at:
 👉 http://localhost:3000
+| Method | Endpoint       | Description   |
+| ------ | -------------- | ------------- |
+| POST   | /users         | Create user   |
+| GET    | /users/{email} | Fetch user    |
+| GET    | /users         | Get all users |
+| PUT    | /users/{email} | Update user   |
+| DELETE | /users/{email} | Delete user   |
+
 
