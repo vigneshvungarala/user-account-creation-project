@@ -58,8 +58,9 @@ user-account-creation-project/
     ├── src/App.js                 # Dashboard UI + API integration
     ├── src/index.js               # React entry + Bootstrap import
     ├── package.json
+---
 
-## 🏗 System Architecture
+## System Architecture
 
 User Browser
 │
