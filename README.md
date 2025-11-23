@@ -58,3 +58,42 @@ user-account-creation-project/
     ├── src/App.js                 # Dashboard UI + API integration
     ├── src/index.js               # React entry + Bootstrap import
     ├── package.json
+
+## 🏗 System Architecture
+
+User Browser
+│
+▼
+React Dashboard (Netlify)
+│
+Axios HTTP Requests
+▼
+AWS API Gateway
+▼
+AWS Lambda (Flask API)
+▼
+Redis Database (AWS ElastiCache)
+
+## 🧪 How to Run Locally (Optional)
+
+### Backend (Flask Local)
+
+```bash
+cd flask-lambda-redis-api
+pip install -r requirements.txt
+
+# Start local Redis or update REDIS_HOST in app.py
+python app.py
+
+API will run at:
+👉 http://localhost:5000
+
+Frontend (React Local)
+cd user-account-dashboard
+npm install
+npm start
+
+
+App will run at:
+👉 http://localhost:3000
+
