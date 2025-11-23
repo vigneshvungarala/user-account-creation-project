@@ -10,7 +10,7 @@ This system allows complete CRUD operations for user accounts through a secure b
 
 ### 🔗 Live Demo
 
-* 🖥 **Frontend Dashboard:**
+* 🖥 **Application:**
   [https://user-creation-app.netlify.app/](https://user-creation-app.netlify.app/)
 
 * ⚙️ **Backend API Base URL:**
