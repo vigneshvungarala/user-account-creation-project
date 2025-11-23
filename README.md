@@ -187,8 +187,8 @@ For feedback, improvements, or collaboration:
 
 ## ✅ Project Status
 
- Project Complete
- Live
- Production Ready
+ * Project Complete
+ * Live
+ * Production Ready
 
 
