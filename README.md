@@ -1,4 +1,4 @@
-# 🔐 User Account Creation System (AWS Lambda + Redis + React)
+#  User Account Creation System (AWS Lambda + Redis + React)
 
 A full-stack user account management system with:
 
@@ -12,10 +12,10 @@ A full-stack user account management system with:
 ## 🌐 Live Demo
 
 - 🖥 **Dashboard (Frontend):**  
-  👉 https://user-creation-app.netlify.app/
+   https://user-creation-app.netlify.app/
 
 - ⚙️ **API Base URL (Backend):**  
-  👉 `https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev`
+   `https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev`
 
 ---
 
@@ -44,7 +44,7 @@ A full-stack user account management system with:
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```bash
 user-account-creation-project/
