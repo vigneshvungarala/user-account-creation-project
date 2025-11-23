@@ -162,11 +162,11 @@ App will run at:
 
 ---
 
-## 👤 Author
+## Author
 
 **Vignesh**
-Aspiring Backend Developer
-Final Year B.Tech Student
+Aspiring software Developer
+B.Tech passout (2025)
 
 Built as part of a recruitment task to demonstrate:
 
@@ -181,15 +181,14 @@ Built as part of a recruitment task to demonstrate:
 
 For feedback, improvements, or collaboration:
 
-* GitHub Profile
-* LinkedIn (optional)
+* LinkedIn :https://www.linkedin.com/in/vigneshvungarala/
 
 ---
 
 ## ✅ Project Status
 
-🟢 Project Complete
-🟢 Live
-🟢 Production Ready
+ Project Complete
+ Live
+ Production Ready
 
 
