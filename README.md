@@ -1,50 +1,58 @@
-#  User Account Creation System (AWS Lambda + Redis + React)
+# 🚀 User Account Creation System
 
-A full-stack user account management system with:
-
-- **Backend:** Python Flask API on **AWS Lambda** using **Serverless Framework**
-- **Database:** **Redis (AWS ElastiCache / Redis OSS Serverless)**
-- **Frontend:** **React + React-Bootstrap** dashboard
-- **Hosting:** Backend via AWS API Gateway, Frontend on **Netlify**
+A full-stack **User Account Management System** built with a scalable serverless architecture using AWS services and a modern React dashboard.
 
 ---
 
-## 🌐 Live Demo
+## 🧩 Project Overview
 
-- 🖥 **Dashboard (Frontend):**  
-   https://user-creation-app.netlify.app/
+This system allows complete CRUD operations for user accounts through a secure backend API and an intuitive frontend dashboard.
 
-- ⚙️ **API Base URL (Backend):**  
-   `https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev`
+### 🔗 Live Demo
+
+* 🖥 **Frontend Dashboard:**
+  [https://user-creation-app.netlify.app/](https://user-creation-app.netlify.app/)
+
+* ⚙️ **Backend API Base URL:**
+  [https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev](https://owf5o8rlm8.execute-api.ap-south-1.amazonaws.com/dev)
 
 ---
 
 ## ✅ Features
 
-### Backend (Flask + Lambda)
-- CRUD API for User Accounts:
-  - `POST /users` – Create user
-  - `GET /users/{email}` – Get single user
-  - `GET /users` – List all users
-  - `PUT /users/{email}` – Update user
-  - `DELETE /users/{email}` – Delete user
-- Uses Redis hashes to store:
-  - `email`, `first_name`, `last_name`, `password (hashed)`
-- Deployed with **Serverless Framework** to AWS Lambda & API Gateway
-- VPC + Security Groups configured to access Redis
+### 🔧 Backend (Flask + AWS Lambda)
 
-### Frontend (React + React-Bootstrap)
-- Responsive **Account Management Dashboard**
-- Left sidebar with sections:
-  - **User Profile** (connected to live API – full CRUD)
-  - **Notifications**
-  - **Billing & Invoices**
-  - **Plans & Add-ons**
-- Uses **Axios** to call the deployed API
+* RESTful CRUD API for User Accounts:
+
+  * `POST /users` – Create user
+  * `GET /users/{email}` – Get single user
+  * `GET /users` – Get all users
+  * `PUT /users/{email}` – Update user
+  * `DELETE /users/{email}` – Delete user
+* Redis used for data storage with hashes:
+
+  * email
+  * first_name
+  * last_name
+  * password (hashed)
+* Serverless deployment using **Serverless Framework**
+* Secure VPC & Security Group configuration for Redis access
+
+### 🎨 Frontend (React + React-Bootstrap)
+
+* Responsive Account Management Dashboard
+* Sidebar Navigation:
+
+  * User Profile (Full CRUD)
+  * Notifications
+  * Billing & Invoices
+  * Plans & Add-ons
+* API integration via Axios
+* Hosted on Netlify
 
 ---
 
-##  Project Structure
+## 🏗 Project Structure
 
 ```bash
 user-account-creation-project/
@@ -58,46 +66,61 @@ user-account-creation-project/
     ├── src/App.js                 # Dashboard UI + API integration
     ├── src/index.js               # React entry + Bootstrap import
     ├── package.json
+```
+
 ---
 
-## System Architecture
+## 🧠 System Architecture
 
+```
 User Browser
-│
-▼
+     │
+     ▼
 React Dashboard (Netlify)
-│
+     │
 Axios HTTP Requests
-▼
+     ▼
 AWS API Gateway
-▼
+     ▼
 AWS Lambda (Flask API)
-▼
+     ▼
 Redis Database (AWS ElastiCache)
+```
 
-## 🧪 How to Run Locally (Optional)
+---
 
-### Backend (Flask Local)
+## 🧪 Run Locally
 
+### 🔹 Backend (Flask)
+
+```bash
 cd flask-lambda-redis-api
 pip install -r requirements.txt
 
 # Start local Redis or update REDIS_HOST in app.py
 python app.py
+```
 
 API will run at:
-👉 http://localhost:5000
+👉 [http://localhost:5000](http://localhost:5000)
 
-# Frontend (React Local)
+---
+
+### 🔹 Frontend (React)
+
+```bash
 cd user-account-dashboard
 npm install
 npm start
-
+```
 
 App will run at:
-👉 http://localhost:3000
+👉 [http://localhost:3000](http://localhost:3000)
 
-# Api endpoints
+---
+
+## 🔌 API Endpoints
+
 | Method | Endpoint       | Description   |
 | ------ | -------------- | ------------- |
 | POST   | /users         | Create user   |
@@ -106,47 +129,51 @@ App will run at:
 | PUT    | /users/{email} | Update user   |
 | DELETE | /users/{email} | Delete user   |
 
+---
+
 ## 🧰 Technology Stack
 
 ### Backend
-- Python  
-- Flask  
-- AWS Lambda  
-- API Gateway  
-- Serverless Framework  
-- Redis (ElastiCache Serverless)
+
+* Python
+* Flask
+* AWS Lambda
+* API Gateway
+* Serverless Framework
+* Redis (ElastiCache Serverless)
 
 ### Frontend
-- React.js  
-- React-Bootstrap  
-- Axios  
-- Netlify Hosting
+
+* React.js
+* React-Bootstrap
+* Axios
+* Netlify Hosting
 
 ---
 
-## 📈 Achievements
+## 📈 Key Achievements
 
-✔ Fully serverless architecture  
-✔ Live production deployment  
-✔ Secure Redis integration  
-✔ Responsive dashboard UI  
-✔ Scalable and modular codebase  
-✔ Real-world recruitment-level implementation  
+✔ Fully serverless architecture
+✔ Live production deployment
+✔ Secure Redis integration
+✔ Responsive dashboard UI
+✔ Scalable and modular codebase
+✔ Real-world recruitment-level implementation
 
 ---
 
 ## 👤 Author
 
-**Vignesh**  
-Aspiring Backend Developer  
-Final Year B.Tech Student  
+**Vignesh**
+Aspiring Backend Developer
+Final Year B.Tech Student
 
 Built as part of a recruitment task to demonstrate:
 
-- Backend API development  
-- Serverless cloud deployment  
-- Database integration  
-- Frontend dashboard development  
+* Backend API Development
+* Serverless Cloud Deployment
+* Database Integration
+* Frontend Dashboard Development
 
 ---
 
@@ -154,14 +181,15 @@ Built as part of a recruitment task to demonstrate:
 
 For feedback, improvements, or collaboration:
 
-- GitHub Profile  
-- LinkedIn (optional)
+* GitHub Profile
+* LinkedIn (optional)
 
 ---
 
-## ✅ Status
+## ✅ Project Status
 
-🟢 **Project Complete**  
-🟢 **Live**  
-🟢 **Production Ready**  
+🟢 Project Complete
+🟢 Live
+🟢 Production Ready
+
 
