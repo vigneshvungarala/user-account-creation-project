@@ -78,7 +78,6 @@ Redis Database (AWS ElastiCache)
 
 ### Backend (Flask Local)
 
-```bash
 cd flask-lambda-redis-api
 pip install -r requirements.txt
 
@@ -88,7 +87,7 @@ python app.py
 API will run at:
 👉 http://localhost:5000
 
-### Frontend (React Local)
+# Frontend (React Local)
 cd user-account-dashboard
 npm install
 npm start
